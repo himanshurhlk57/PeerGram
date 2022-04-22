@@ -1,0 +1,48 @@
+.profilebg {
+  background-color: rgba(185, 185, 185, 0.299);
+}
+
+.formbg {
+  background-color: whitesmoke;
+}
+
+.bgImage2 {
+  background-image: url("https://images.unsplash.com/photo-1605783196478-b383d05b96ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  width: 100%;
+  height: 25vh;
+  border-radius: 8px;
+}
+
+.profile-pic {
+  width: 22vh;
+  margin-top: -80px;
+  margin-left: 30px;
+  height: 20vh;
+  border-radius: 50%;
+}
+
+.box1 {
+  background-color: whitesmoke;
+  border-radius: 8px;
+  width: 100%;
+  height: 60vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-bottom: 15px;
+}
+
+.intro{
+  font-size: large;
+  font-weight: 470;
+}
+
+.para2{
+  font-family: cursive;
+}
+
+.but1{
+  font-size: small;
+}

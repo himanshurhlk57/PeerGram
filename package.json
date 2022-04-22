@@ -1,0 +1,22 @@
+{
+  "name": "BuzzApp",
+  "version": "1.0.0",
+  "description": "# -> First go into the project directory ## -> then type \"npm install\" ### -> then type \"npm start\"",
+  "main": "index.js",
+  "dependencies": {
+    "cloudinary": "^1.29.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "google-auth-library": "^8.0.0",
+    "mongoose": "^6.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

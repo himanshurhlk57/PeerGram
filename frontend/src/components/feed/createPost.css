@@ -1,0 +1,34 @@
+.post{
+  margin-top: 1px;
+  margin-bottom: 15px;
+  width: 100%;
+  /* height: 70px; */
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 1px 2px 2px rgb(0 0 0 / 10%), -1px -1px 2px rgb(0 0 0 / 8%);
+  padding: 12px;
+}
+
+.postWrapper{
+   display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  padding: 10px;
+}
+.shareTop{
+  display: flex;
+  align-items: center;
+}
+.profilePicture{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.shareInput{
+  border: none;
+  width: 70%;
+}
+.shareInput:focus{
+  outline: none;
+}

@@ -1,0 +1,10 @@
+
+.userImg{
+    border-radius: 20%;
+    width: 80%;
+    height: 6vh;
+}
+
+.userName{
+    font-size:medium;
+}

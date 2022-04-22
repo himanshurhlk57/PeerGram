@@ -1,0 +1,9 @@
+git status
+git branch hk-ttn
+git checkout hk-ttn
+git add .
+git commit -m "commit-message"
+git push origin hk-ttn 
+
+
+git pull origin main
