@@ -1,5 +1,5 @@
 {
-  "name": "BuzzApp",
+  "name": "peergram",
   "version": "1.0.0",
   "description": "# -> First go into the project directory ## -> then type \"npm install\" ### -> then type \"npm start\"",
   "main": "index.js",
